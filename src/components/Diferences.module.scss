@@ -5,7 +5,8 @@
     background-size: cover;
     overflow: hidden;
     display:flex;
-    margin:0 60px;
+ 
+    margin:0 40px;
     .left{
         padding:160px 100px;
         max-width: 500px;
@@ -34,13 +35,13 @@
             display:flex;
             margin:30px;
             .button{
-                height:29px;
-                width:100px;
-                font-weight: 500;
+                height:35px;
+                width:120px;
+                font-weight: 400;
                 color:white;
                 background-color: $primary;
                 border:1px solid $primary;
-                padding:$spacing-sm $spacing-md;
+                
                 border-radius: 20px;
                 cursor:pointer;
                 box-shadow: 0 0 0.5em 0 $primary;

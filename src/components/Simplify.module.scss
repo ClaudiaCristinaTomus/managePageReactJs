@@ -1,0 +1,33 @@
+
+@import "./../styles/variables.scss";
+
+.simplify{
+    height:20vh;
+    background-color: $primary;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    h2{
+        color:$bg2;
+        font-size: 32px;
+        max-width: 390px;
+    }
+    .button{
+        font-weight: 500;
+        color:$primary;
+        background-color: $bg3;
+        border:1px solid $primary;
+        padding:$spacing-sm $spacing-md;
+        border-radius: 20px;
+        cursor:pointer;
+        box-shadow: 0 0 0.5em 0 $primary;
+        &:active{
+            transform:scale(0.98);
+            border-radius: 0;
+        }
+        &:hover{
+            box-shadow: 0 0 0.75em 0 $primary;
+        }
+    }
+    
+}
